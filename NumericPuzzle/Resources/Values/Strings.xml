@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">クラウディア数字合わせ</string>
+    <string name="time">"経過時間 "</string>
+    <string name="chronometer_format">%s</string>
+    <string name="start">スタート</string>
+    <string name="complete_button">おめでとう</string>
+    <string name="complete_title">フィニーシュ！！</string>
+</resources>

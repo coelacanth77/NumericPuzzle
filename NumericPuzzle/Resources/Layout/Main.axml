@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/claudia"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:scaleType="center" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <TableLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/image_button1"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+                <ImageButton
+                    android:id="@+id/image_button2"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+                <ImageButton
+                    android:id="@+id/image_button3"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+                <ImageButton
+                    android:id="@+id/image_button4"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/image_button5"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+                <ImageButton
+                    android:id="@+id/image_button6"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+                <ImageButton
+                    android:id="@+id/image_button7"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+                <ImageButton
+                    android:id="@+id/image_button8"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/image_button9"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+                <ImageButton
+                    android:id="@+id/image_button10"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+                <ImageButton
+                    android:id="@+id/image_button11"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+                <ImageButton
+                    android:id="@+id/image_button12"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/image_button13"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+                <ImageButton
+                    android:id="@+id/image_button14"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+                <ImageButton
+                    android:id="@+id/image_button15"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+                <ImageButton
+                    android:id="@+id/image_button16"
+                    android:layout_margin="1px"
+                    android:layout_width="90px"
+                    android:layout_height="90px" />
+            </TableRow>
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time" />
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:format="@string/chronometer_format" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+            <Button
+                android:id="@+id/start_button"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
